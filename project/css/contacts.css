@@ -1,0 +1,39 @@
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-box {
+    background-color: red;
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    width: 600px;
+}
+.contact-box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.contact-box-data-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.contact-box-location {
+    color: #ffffff;
+    font-weight: bold;
+    
+    font-size: 20px;
+}
+
+.contact-box-content .row {
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 10px;
+}

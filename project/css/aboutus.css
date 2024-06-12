@@ -1,0 +1,42 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    margin-bottom: 12px;
+}
+
+.text-desc {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: white;
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.item-title {
+    color: #0b090a;
+    font-weight: bold;
+    
+    font-size: 20px;
+}
+
+.item-text {
+    color: #858282;
+    font-weight: 600;
+}
+
